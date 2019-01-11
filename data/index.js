@@ -28,7 +28,7 @@ log = bunyan.createLogger(
 log.info('main app has started');
 // This will only appear in /data/testing.log
 log.debug('Some debugging info');  
-
+console.log('console log messsage');
 
 server.listen(8080);
 
